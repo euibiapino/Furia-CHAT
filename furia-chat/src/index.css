@@ -1,0 +1,73 @@
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: "Poppins", "Arial", sans-serif;
+}
+
+.logo {
+  animation: pulse 2s infinite ; 
+}
+
+.container {
+  padding: 2rem;
+}
+
+.chat-box {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 15px 2px #121212;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.chat-box input {
+  font-family: 'VT323', monospace;
+  width: 80%;
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.chat-box button {
+  padding: 0.5rem 1rem;
+  background-color: #fda50f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.mensagens {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.placar-box {
+  margin-top: 2rem;
+}
+
+.partida-box {
+  background-color: #111;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.placar-box button {
+  padding: 0.5rem 1rem;
+  background-color: #fda50f;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.9; }
+  100% { transform: scale(1); opacity: 1; }
+}
